@@ -72,6 +72,7 @@ GEM
     ast (2.4.2)
     backport (1.2.0)
     benchmark (0.2.1)
+    benchmark-ips (2.12.0)
     bindex (0.8.1)
     bootsnap (1.16.0)
       msgpack (~> 1.2)
@@ -312,6 +313,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  benchmark-ips
   bootsnap (= 1.16.0)
   capybara (= 3.38.0)
   debug (= 1.7.1)
